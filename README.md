@@ -6,9 +6,10 @@ lss2 - Large-Scale Structure
 Basic Usage
 -----------
 
-To create a `CosmoStructure` object for a specific cosmology model. 
+To create a `CosmoStructure` object for a specific cosmology model with default settings, 
 
 ```{python}
 >>> import lss2
->>> lss2.CosmoStrucure()
+>>> cs = lss2.CosmoStructure(Om0 = 0.3, Ob0 = 0.05, sigma8 = 0.8, n = 1., h = 0.7)
 ```
+This can be then used to get the power spectrum or mass-function with this this cosmology!
