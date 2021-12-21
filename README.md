@@ -12,7 +12,7 @@ The module can be installed by running the `setup.py` script.
 $ python3 setup.py install
 ```
 
-This module depends on numpy and scipy. Tests were done with Python3, on an Ubuntu 18 machine
+This module depends on numpy and scipy packages. Tests were done with Python3, on an Ubuntu 18 machine
 
 Basic Usage
 -----------
